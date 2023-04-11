@@ -1,0 +1,88 @@
+object Form1: TForm1
+  Left = 1433
+  Height = 632
+  Top = 455
+  Width = 549
+  Caption = 'Form1'
+  ClientHeight = 632
+  ClientWidth = 549
+  DesignTimePPI = 144
+  LCLVersion = '2.2.4.0'
+  object btnCalculate: TButton
+    Left = 168
+    Height = 38
+    Top = 544
+    Width = 145
+    Caption = 'Скалькулировать'
+    OnClick = btnCalculateClick
+    TabOrder = 0
+  end
+  object chkSimpleInterest: TCheckBox
+    Left = 72
+    Height = 29
+    Top = 24
+    Width = 99
+    Caption = 'простые'
+    TabOrder = 1
+  end
+  object chkCompoundInterest: TCheckBox
+    Left = 72
+    Height = 29
+    Top = 65
+    Width = 103
+    Caption = 'сложные'
+    TabOrder = 2
+  end
+  object edtDepositAmount: TEdit
+    Left = 208
+    Height = 33
+    Top = 137
+    Width = 304
+    TabOrder = 3
+  end
+  object edtDuration: TEdit
+    Left = 208
+    Height = 33
+    Top = 183
+    Width = 304
+    TabOrder = 4
+  end
+  object edtInterestRate: TEdit
+    Left = 208
+    Height = 33
+    Top = 231
+    Width = 304
+    TabOrder = 5
+  end
+  object lblDepositAmount: TLabel
+    Left = 32
+    Height = 25
+    Top = 137
+    Width = 169
+    Caption = 'Начальная стоимось'
+    ParentColor = False
+  end
+  object lblDuration: TLabel
+    Left = 33
+    Height = 25
+    Top = 182
+    Width = 66
+    Caption = 'Месяцы'
+    ParentColor = False
+  end
+  object lblInterestRate: TLabel
+    Left = 32
+    Height = 25
+    Top = 226
+    Width = 85
+    Caption = 'Проценты'
+    ParentColor = False
+  end
+  object memOutput: TMemo
+    Left = 48
+    Height = 263
+    Top = 272
+    Width = 432
+    TabOrder = 6
+  end
+end
